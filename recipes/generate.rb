@@ -5,7 +5,7 @@ node[:deploy].each do |app_name, deploy_config|
   # use template 'redis.yml.erb' to generate 'config/redis.yml'
   template "#{app_root}/config/redis.yml" do
     source "redis.yml.erb"
-    cookbook "redis-config"
+    cookbook "redis_opsworks_cookbook"
 
     # set mode, group and owner of generated file
     mode "0660"
