@@ -16,3 +16,5 @@ version '0.1.0'
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/redis_opsworks_cookbook'
+
+depends 'redis_opsworks_cookbook'
