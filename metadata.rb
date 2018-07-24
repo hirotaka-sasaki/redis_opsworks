@@ -1,11 +1,9 @@
 name 'redis_opsworks_cookbook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Hirotaka Sasaki'
+maintainer_email 'hirotaka022105@gmail.com'
 license 'All Rights Reserved'
-description 'Installs/Configures redis_opsworks_cookbook'
-long_description 'Installs/Configures redis_opsworks_cookbook'
+description 'Configures and use Redis with Ruby on Rails app working on opsworks'
 version '0.1.0'
-chef_version '>= 12.14' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
