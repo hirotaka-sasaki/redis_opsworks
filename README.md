@@ -29,7 +29,7 @@ REDIS_CONFIG = YAML::load_file(Rails.root.join('config', 'redis.yml'))
 $redis = Redis.new(:host => REDIS_CONFIG['host'], :port => REDIS_CONFIG['port'])
 ```
 
-## Warning
+### Supplement
 I have been able to find the solution, but there is a case that above code doesn't work.
 In that case, please add the following code to `deploy/before_migrate.rb` of your Rails Application.
 
